@@ -23,7 +23,7 @@ import java.util.concurrent.ConcurrentMap;
 
 public final class MyBot extends TelegramLongPollingBot {
     private final String BOT_USERNAME = "Chat279TestBot";
-    private final String BOT_TOKEN = "1948546097:AAEqrtxWEQF10LTCbUr35hNotQjuO7jevz4";
+    private final String BOT_TOKEN = "";
     private final String ADMIN_CHAT = "-510026915";
 
     private ConcurrentMap<String, User> usersHashMap;     // key = userId, value = "userName"
